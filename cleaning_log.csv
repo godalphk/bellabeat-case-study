@@ -1,6 +1,0 @@
-etape,probleme,regle,lignes_avant,lignes_apres
-Doublons,Le 12/04/2016 apparait dans les 2 exports avec des valeurs differentes (version p1 = journee partielle),Garder la ligne de l'export p2 (journee complete),1397,1373
-Valeurs aberrantes,Jours a moins de 100 pas : appareil non porte (ex. 1440 min 'sedentaires' et 0 pas),Exclure les jours < 100 pas (seuil choisi par jugement),1373,1222
-Transformation,Dates en texte (M/J/AAAA),"Conversion en date, ajout jour de semaine et minutes actives",1222,1222
-Doublons,Lignes de sommeil dupliquees,"drop_duplicates sur (Id, date)",413,410
-Jointure,Pas par heure : garder seulement les jours valides,INNER JOIN avec jours valides,-,28965
