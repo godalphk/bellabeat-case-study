@@ -1,0 +1,152 @@
+{
+ "users_activity_raw": 35,
+ "rows_activity_raw": 1397,
+ "nonwear_days": 151,
+ "users_valid": 35,
+ "days_valid": 1222,
+ "date_min": "2016-03-12",
+ "date_max": "2016-05-12",
+ "mean_steps": 8289,
+ "median_steps": 7886,
+ "mean_active_min": 37.0,
+ "share_days_ge10k": 35.2,
+ "share_days_ge7500": 52.6,
+ "weekday_steps": {
+  "Monday": 8489.0,
+  "Tuesday": 8716.0,
+  "Wednesday": 8302.0,
+  "Thursday": 8240.0,
+  "Friday": 7858.0,
+  "Saturday": 8815.0,
+  "Sunday": 7589.0
+ },
+ "weekday_n": {
+  "Monday": 167,
+  "Tuesday": 178,
+  "Wednesday": 180,
+  "Thursday": 172,
+  "Friday": 182,
+  "Saturday": 175,
+  "Sunday": 168
+ },
+ "peak_hours": {
+  "19": 640.6,
+  "18": 629.4,
+  "12": 596.1,
+  "17": 583.2
+ },
+ "hour_12_14_19": {
+  "8": 444.7,
+  "12": 596.1,
+  "13": 582.5,
+  "17": 583.2,
+  "18": 629.4,
+  "19": 640.6
+ },
+ "segments": {
+  "Sedentaire (<5 000)": 8,
+  "Peu actif (5 000-7 499)": 10,
+  "Assez actif (7 500-9 999)": 8,
+  "Actif (>=10 000)": 9
+ },
+ "users_total_seg": 35,
+ "sleep_users": 24,
+ "sleep_nights": 410,
+ "sleep_joined_nights": 408,
+ "sleep_users_joined": 24,
+ "share_minutes_awake_basis": {
+  "veryActiveMinutes": 2.6,
+  "fairlyActiveMinutes": 1.8,
+  "lightlyActiveMinutes": 22.3,
+  "sedentaryMinutes": 73.3
+ },
+ "sed_awake_h": 11.9,
+ "awake_tracked_h": 16.3,
+ "check_tracked_plus_inbed_median_gap_min": 0.0,
+ "mean_asleep_h": 6.99,
+ "mean_inbed_h": 7.65,
+ "mean_efficiency_pct": 91.7,
+ "share_nights_lt7h": 43.9,
+ "mean_wait_to_sleep_min": 39.3,
+ "median_wait_to_sleep_min": 25.5,
+ "corr_with_asleep": {
+  "totalSteps": {
+   "pearson": -0.198,
+   "spearman": -0.234
+  },
+  "veryActiveMinutes": {
+   "pearson": -0.09,
+   "spearman": -0.236
+  },
+  "active_min": {
+   "pearson": -0.184,
+   "spearman": -0.278
+  },
+  "sedentaryMinutes": {
+   "pearson": -0.643,
+   "spearman": -0.581
+  },
+  "calories": {
+   "pearson": -0.04,
+   "spearman": -0.046
+  }
+ },
+ "corr_sed_inbed_ARTEFACT": -0.662,
+ "lag_steps_vs_next_night": {
+  "n": 406,
+  "pearson": -0.069,
+  "spearman": -0.121
+ },
+ "within_user_steps_sleep_sameday": -0.161,
+ "kruskal_weekday_p": 0.042,
+ "sleep_by_steps_bin": {
+  "<5k": {
+   "asleep_h": 7.61,
+   "n": 94
+  },
+  "5-10k": {
+   "asleep_h": 7.04,
+   "n": 149
+  },
+  "10-15k": {
+   "asleep_h": 6.62,
+   "n": 142
+  },
+  ">=15k": {
+   "asleep_h": 6.47,
+   "n": 23
+  }
+ },
+ "corr_user_level_steps_sleep": -0.06,
+ "users_user_level": 24,
+ "users_recorded": 35,
+ "median_valid_days": 39.0,
+ "share_users_wear_ge90": 65.7,
+ "share_users_wear_ge80": 71.4,
+ "overall_wear_rate": 89.0,
+ "users_p2": 33,
+ "sleep_adoption_pct": 72.7,
+ "median_nights_per_sleep_user": 20.5,
+ "share_sleep_users_ge20nights": 50.0,
+ "active_users_by_week": {
+  "0": 2,
+  "1": 4,
+  "2": 29,
+  "3": 34,
+  "4": 33,
+  "5": 32,
+  "6": 31,
+  "7": 30,
+  "8": 26
+ },
+ "weekday_peak": [
+  19,
+  682
+ ],
+ "weekend_peak": [
+  13,
+  660
+ ],
+ "weekday_dip_15h": 380,
+ "weekday_noon_12h": 586
+}
